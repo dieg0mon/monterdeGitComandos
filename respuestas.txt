@@ -1,1 +1,2 @@
 1. cat datos.txt | grep -i "juan"
+2. awk -F',' '{print $4}' datos.txt | grep juan
